@@ -1,0 +1,25 @@
+docker network create --subnet=172.20.0.0/16 cloudnet # create custom network
+
+docker pull postgres
+
+docker pull ubuntu:18.04
+
+
+1. Create ZooKeeper Container
+
+docker pull zookeeper:3.4
+
+docker run -d --rm --hostname zookeepernode --net cloudnet --ip 172.20.1.3 --name cloud_zookeeper --publish 2181:2181 zookeeper:3.4
+
+
+2. Create Kafka Container
+
+docker pull ches/kafka
+
+docker run -d --rm --hostname kafkanode --net cloudnet --ip 172.20.1.4 --name cloud_kafka --publish 9092:9092 --publish 7203:7203 --env KAFKA_AUTO_CREATE_TOPICS_ENABLE=true --env KAFKA_ADVERTISED_HOST_NAME=127.0.0.1 --env ZOOKEEPER_IP=172.20.1.3 ches/kafka
+
+docker images
+
+docker ps
+
+docker ps -a
