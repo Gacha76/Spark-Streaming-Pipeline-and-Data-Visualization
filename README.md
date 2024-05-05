@@ -17,7 +17,7 @@
   - [Event Simuator Using Python](#a-event-simuator-using-python)
   - [Setting up PostgreSQL Database (Events Database)](#b-setting-up-postgresql-database-events-database)
   - [Building Streaming Data Pipeline using Python and Spark Structured Streaming (PySpark Based)](#c-building-streaming-data-pipeline-using-python-and-spark-structured-streaming-pyspark-based)
-  - [Building Dashboard using Django Web Framework and Flexmonster for Visualization](#d-building-dashboard-using-django-web-framework-and-flexmonster-for-visualization)
+  - [Building Dashboard using Django Web Framework and Flexmonster for Visualization](#d--building-dashboard-using-django-web-framework-and-flexmonster-for-visualization)
 - [Final Result](#final-result)
 - [Team Members](#team-members)
 
