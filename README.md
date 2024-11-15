@@ -178,11 +178,3 @@ The dashboard updates live as the python simultor keeps feeding with new data. S
 ![pie](https://github.com/DataScience-ArtificialIntelligence/Spark-Streaming-Pipeline-and-Data-Visualization/assets/114498897/643632b5-00a7-4c30-999e-c6fbc49055f2)
 
 ![bar](https://github.com/DataScience-ArtificialIntelligence/Spark-Streaming-Pipeline-and-Data-Visualization/assets/114498897/d7c84e06-1788-4e36-9414-6bf56828985d)
-
-
-### Team Members
-
-* Aayushi Padia (21bds002)
-* Aryan TN (21bds006)
-* Nupur Sangwai (21bds046)
-* Sharan Thummagunti (21bds061)
